@@ -22,6 +22,9 @@
     </header>
 
     <main class="container">
+
+<!--Hero Section-->
+
       <section class="hero_container">
         <div class="hero_image_container">
           <img src="assets/hero.jpg" alt="hero image" class="hero_image">
@@ -32,26 +35,51 @@
           </h1>
           <button class="button_primary">Order Now</button>
 
+<!-- Adding the SVG image here -->
+
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" class="blobSvg">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color: rgb(238, 205, 163);"></stop>
+      <stop offset="100%" style="stop-color: rgb(239, 98, 159);"></stop>
+    </linearGradient>
+  </defs>
+  <path id="blob" d="M431.5,285.5Q433,321,408.5,346.5Q384,372,363.5,404Q343,436,305.5,441Q268,446,226,465Q184,484,145,462.5Q106,441,75.5,409Q45,377,56.5,330.5Q68,284,69,250Q70,216,66,175Q62,134,100,118Q138,102,163,66.5Q188,31,229,33Q270,35,304.5,53Q339,71,366,95Q393,119,417.5,147.5Q442,176,436,213Q430,250,431.5,285.5Z" fill="url(#gradient)"></path>
+</svg>
+
+          <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" class="blobSvg">
+            <defs>
+              <pattern id="pattern" x="0" y="0" width="6" height="6" patternUnits="userSpaceOnUse" fill="#ee89a0">
+                <path d="M5 0h1L0 6V5zM6 5v1H5z"></path>
+              </pattern>
+            </defs>
+            <path id="blob" d="M480,291.5Q477,333,444,359Q411,385,386.5,414.5Q362,444,323.5,446.5Q285,449,250,449.5Q215,450,170.5,457Q126,464,108,424.5Q90,385,62.5,356.5Q35,328,21,289Q7,250,22,211Q37,172,50,132.5Q63,93,104,80.5Q145,68,177,44Q209,20,250.5,14.5Q292,9,332,23.5Q372,38,391,77Q410,116,443.5,141.5Q477,167,480,208.5Q483,250,480,291.5Z" fill="url(#pattern)"></path>
+          </svg>
+
         </div>
       </section>
 <br>
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
-      <!-- Explore Menu-->
+
+<!-- Explore Menu-->
 
       <section class="explore_menu_container">
         <h1 class="explore_menu_text">Explore Our Menu</h1>
         <div class="explore_menu_gradient_bg">
-
-
         </div>
         <div class="explore_menu_lists">
 
 <!-- Burger Card-->
 
-              <div class="food_card">
+              <div class="food_card" id="burgur_card">
               <div class="food_card_image_container">
                 <img src="assets/burger.jpg" alt="burger" class="food_image">
               </div>
@@ -76,7 +104,7 @@
 
 <!--Icecream Card-->
 
-      <div class="food_card">
+      <div class="food_card"  id="icecream_card">
       <div class="food_card_image_container">
         <img src="assets/icecream.jpg" alt="Icecream" class="food_image">
       </div>
@@ -84,9 +112,9 @@
         <h3 class="food_title">Ice Creams</h3>
         <p>Baskin Robins,Ibaco <span style="color: #D83A56">+3</span></p>
       </div>
-  </div>
-        </div>
+      </div>
 
+      </div>
       </section>
     </main>
   </body>

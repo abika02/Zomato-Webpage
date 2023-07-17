@@ -58,6 +58,7 @@ body {
   width: 100%;
   border-radius: 8px;
   box-shadow: 0 25px 60px 12px rgba(0 0 0 / 25%);
+
 }
 
 .hero_text {
@@ -73,12 +74,12 @@ body {
 }
 
 .food_card {
-
   background-color: #F9F9F9;
 }
 
 .food_card_image_container {
   width: 100%;
+
 }
 
 .food_image {
@@ -126,9 +127,28 @@ body {
       transform: skewY(-5deg);
   }
 
+  .blobSvg {
+    position: absolute;
+    bottom: -80px;
+
+    left: 50%;
+    transform: translateX(0%);
+    width: 30%;
+    height: 10;
+    z-index: -1;
+  }
+
   #pizza_card {
     margin-top: -20px;
     margin-bottom: 30px;
+  }
+
+  #icecream_card {
+    margin-bottom: 60px;
+  }
+
+  #burgur_card {
+    margin-bottom: 50px;
   }
 
   .navbar{
@@ -150,7 +170,6 @@ body {
     max-width: 70%;
   }
   .explore_menu_lists {
-
     gap: 25px;
   }
   .navbar_brand {
@@ -171,6 +190,9 @@ body {
 
   .explore_menu_text {
     font-size: 48px;
+  }
+  .blobSvg {
+    display: flex;
   }
 
 }
