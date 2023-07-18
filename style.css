@@ -38,6 +38,18 @@ body {
     font-weight: 600;
 }
 
+.blobSvg {
+    position: absolute;
+    bottom: -80px;
+
+    left: 50%;
+    transform: translateX(0%);
+    width: 30%;
+    height: 10;
+    z-index: -1;
+  }
+
+  
 .button_primary:hover {
   border: 2px solid #FF6767;
   cursor: pointer;
@@ -60,6 +72,7 @@ body {
   box-shadow: 0 25px 60px 12px rgba(0 0 0 / 25%);
 
 }
+
 
 .hero_text {
   font-weight: 800;
@@ -127,16 +140,8 @@ body {
       transform: skewY(-5deg);
   }
 
-  .blobSvg {
-    position: absolute;
-    bottom: -80px;
+}
 
-    left: 50%;
-    transform: translateX(0%);
-    width: 30%;
-    height: 10;
-    z-index: -1;
-  }
 
   #pizza_card {
     margin-top: -20px;
@@ -162,7 +167,8 @@ body {
     flex-direction: row-reverse;
     align-items: center;
   }
-}
+
+
 
 @media (min-width: 1024px) {
 
@@ -191,8 +197,6 @@ body {
   .explore_menu_text {
     font-size: 48px;
   }
-  .blobSvg {
-    display: flex;
-  }
+
 
 }
